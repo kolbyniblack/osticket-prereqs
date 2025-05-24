@@ -35,24 +35,68 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+1 - Within the Windows Search Bar, look up "Control Panel" - The window seen in this image below will open, and from here you can Install / Enable IIS in Windows WITH CGI <br /> "follow the images with their corresponding letter below"
+
+
+![image](https://github.com/user-attachments/assets/72eff9fb-344b-4449-985f-cc929bcf0a2a)
+<p> 
+(A) Once this window appears, make sure you double-click on the icon that reads "PROGRAMS" </p>
+
+
+![image](https://github.com/user-attachments/assets/8060c297-9239-459a-9e73-8605ed8a382c)
+<p> 
+(B) Double-click on "PROGRAMS AND FEATURES" </p>
+
+
+![image](https://github.com/user-attachments/assets/5abad30c-c72f-418f-83d2-d8db348b7a8a)
+<p> 
+(C) On the left side of the window, double-click the Icon that reads "Turn windows Features on or off" </p>
+
+
+![image](https://github.com/user-attachments/assets/6482a34f-9dc9-489d-a2e0-f116165f1c76)
+
+![image](https://github.com/user-attachments/assets/59db12c3-a0df-4c49-b139-39e68afe71e0)
+
+<p> 
+(D) In this "Windows Features" window, scroll down until you find a folder that reads "Internet Information Services)" <br /> Expand this folder by selecting the (+) icon, and click/enable each box listed below <br /> 
+-World Wide Web Services <br /> -Common HTTP features-
+  
+  <ul>
+  <li>[X]Default document </li>
+  <li>[X]Directory Browsing </li>
+  <li>[X]HTTP Errors </li>
+  <li>[X]Static Content</li>
+</ul>  
+
+Then, click "okay"
+
+
+
+
+
+
+
+
 </p>
+
+</p>
+<br />
+
+(PLACE IMAGE HERE)
+
+
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+(PLACE IMAGE HERE)
+  
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
