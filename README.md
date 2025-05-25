@@ -80,8 +80,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/6482a34f-9dc9-489d-a2e0-f116165f1c76)
 
+<p>both images are the same window, the only difference is that the image below has folders that have been expanded</p>
+
+![image](https://github.com/user-attachments/assets/59db12c3-a0df-4c49-b139-39e68afe71e0)
+
 <p>
-  !!For Each listing that you see with "[X]" in front of it - make sure to check them off in the <b>"Windows Features"</b> window as seen in the image above!!
+  !!For Each listing seen with "[X]" in front of it - make sure to check them off in the <b>"Windows Features"</b> window as seen in the image above!!
   <ul>
   <li>[X]Default document </li>
   <li>[X]Directory Browsing </li>
@@ -89,8 +93,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>[X]Static Content</li>
 </ul>  
 </p>
-
-![image](https://github.com/user-attachments/assets/59db12c3-a0df-4c49-b139-39e68afe71e0)
 
 Then, click "okay"
 
