@@ -58,6 +58,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/72eff9fb-344b-4449-985f-cc929bcf0a2a)
 
+<hr style="border: none; height: 2px; background-color: black;">
 
 <p> 
 (B) Double-click on "PROGRAMS AND FEATURES" 
@@ -65,6 +66,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/8060c297-9239-459a-9e73-8605ed8a382c)
 
+<hr style="border: none; height: 2px; background-color: black;">
 
 <p> 
 (C) On the left side of the window, double-click the Icon that reads "Turn windows Features on or off" 
@@ -72,6 +74,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/5abad30c-c72f-418f-83d2-d8db348b7a8a)
 
+<hr style="border: none; height: 2px; background-color: black;">
 
 <p> 
 (D) In the <b>"Windows Features"</b> window, scroll down until you find a folder that reads <b>"Internet Information Services"</b> or IIS (for short) <br /> (expand/+) the Internet Information Services folder by selecting the (+) icon <br /> 
@@ -95,6 +98,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 Then, click "okay"
+
+<hr style="border: none; height: 2px; background-color: black;">
+<hr style="border: none; height: 2px; background-color: black;">
+<hr style="border: none; height: 2px; background-color: black;">
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -122,6 +129,8 @@ Then, click "okay"
 
 ![image](https://github.com/user-attachments/assets/62022457-211e-4baf-aed3-b05c03248c3e)
 
+<hr style="border: none; height: 2px; background-color: black;">
+
   <p>
 (B) - From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
   </p>
@@ -136,6 +145,9 @@ Then, click "okay"
 </p>
 <br />
 
+<hr style="border: none; height: 2px; background-color: black;">
+<hr style="border: none; height: 2px; background-color: black;">
+<hr style="border: none; height: 2px; background-color: black;">
 (PLACE IMAGE HERE)
 
 
