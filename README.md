@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <li> (2) Install osTicket Files (parts A-E) </li>
 
-<li> (3) Register PHP from within IIS </li>
+<li> (3) Install MySQL and Register PHP from within IIS </li>
 
 <li> (4) Enable osTicket Extensions</li>
 
@@ -263,7 +263,7 @@ Click Next
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 
-<p>(IV) Once the folder is created, the name of the folder will be ready to be edited, from here just type the letters "PHP" <br /> Then, continue on to section (2-D) </p>
+<p>(IV) Once the folder is created, the name of the folder will be ready to be edited. From here, you can type the letters "PHP" <br /> Then, continue on to section (2-D) </p>
 
 ![image](https://github.com/user-attachments/assets/c010a6ce-9d50-4d51-996b-41d2155f3f95)
 
@@ -281,9 +281,6 @@ Click Next
 <!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
  
 <h1>(2-D) Unzip [PHP 7.3.8] into the “C:\PHP” folder ( ie: The new folder that was just created )</h1>
-<p>
- 
-</p>
 
 <p>
  (I)From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
@@ -348,60 +345,32 @@ Click Next
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
 
-<h1>(2-E) Install <b>VC_redist.x86.exe.</h1>
+<h1>(2-E) Install Microsoft Visual C++ </h1>
+
 <p>
-  (I) From the “osTicket-Installation-Files” folder, install <b>VC_redist.x86.exe. 
-</p>
+  (I) From the “osTicket-Installation-Files” folder, install <b>VC_redist.x86.exe.
+  <ul>
+   <li>a. Double-click VC_redist.x86.exe. </li>
+   <li>b. Agree to the "terms and conditions"</li>
+   <li>c. Click "Install"</li>
+  </ul>
+  </p>
+
+  ![image](https://github.com/user-attachments/assets/7be4f2c3-cb7f-4b52-bdeb-000801a7ab0a)
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 
-<p>(II)</p>
+![image](https://github.com/user-attachments/assets/8e6b7775-ef04-4536-b7e6-f17bb64236d7)
 
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<p>Once Set up is successful, you may move on to section 3: <b>"Installing 'MySQL' and Register PHP from within IIS"</b></p>
 
 
-<p>(III)</p>
-
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-
-
-<p>(IV)</p>
-
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------- Install osTicket Files - CLOSED------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
 
-<p>(V)</p>
-
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-
-
-<p>(VI)</p>
-
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-
-
-<p>(VII)</p>
-
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-
-
-
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- --------------------------------------------------------- Install osTicket Files - CLOSE  ------------------------------------------------------------------------------------------------------------- -->
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
