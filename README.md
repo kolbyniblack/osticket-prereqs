@@ -130,42 +130,32 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 </p>
 <!--ROMAN NUMERAL 1 OPEN -->
 
-<p>I.</p>
+<p>I.- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</p>
 
 ![image](https://github.com/user-attachments/assets/d5b96631-519f-4bf5-bb10-2cb1e48bfadd)
 
 <hr style="border: none; height: 2px; background-color: black;">
 
-  <p>
-- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-  </p>
-<!--ROMAN NUMERAL 1 CLOSED --> 
-
-<!--ROMAN NUMERAL 2 OPEN -->
-<p>II.</p>
-
-![image](https://github.com/user-attachments/assets/bd67267c-b2c0-4974-acf9-2c0c8b361fd3)
-
 
 <h3>When the <b>IIS Manager Set up Window appears</b> </h3>
 
-Click Next
+
 
 <!--ROMAN NUMERAL 2 CLOSED --> 
 
 <!--ROMAN NUMERAL 3 OPEN --> 
 
-<p>III.</p>
+<p>III.Click Next</p>
 
  ![image](https://github.com/user-attachments/assets/d91e4b04-4d90-4634-a81e-fecfd8dd4d54)
 
-  Agree to the Licensing agreement
+  
 
 <!--ROMAN NUMERAL 3 CLOSED --> 
 
 <!--ROMAN NUMERAL 4 OPEN -->
 
-<p>IV.</p>
+<p>IV.Agree to the Licensing agreement</p>
 
 ![image](https://github.com/user-attachments/assets/e4d2adc7-54f3-4fda-9013-85b1e78f88fb)
 
@@ -308,7 +298,7 @@ Click Next
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
   
-<p>(IV) Find and select the folder newly named "PHP", once selected, click the button named "Select Folder"</p>
+<p>(IV) Find and select the "PHP" folder. Once selected, click the "Select Folder" button</p>
 
 ![image](https://github.com/user-attachments/assets/d2bc4df0-7256-4e1f-9591-d87ca93e9ffa)
 
@@ -317,7 +307,7 @@ Click Next
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
    
-<p>(V) Once the folder is selected, click on the button named "Extract"</p>
+<p>(V) Once the folder is selected, click the "Extract" button</p>
 
 ![image](https://github.com/user-attachments/assets/b88a4c14-aa9c-47c0-9d98-1647e24b066e)
 
@@ -326,26 +316,20 @@ Click Next
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
     
-<p>(VI) Once 100% completed, you may now pat yourself on the back, and move on to section 2-E: "installing <b>VC_redist.x86.exe." </p>
+<p>(VI) Once extraction is 100% completed, you may now move on to section 2-E: "installing <b>VC_redist.x86.exe." </p>
 
 ![image](https://github.com/user-attachments/assets/4a10c724-1c19-4a95-8814-19b801329a34)
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-     
-
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-
 
 
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
 
-<h1>(2-E) Install Microsoft Visual C++ </h1>
+<h1>(2-E) Installing Microsoft Visual C++ </h1>
 
 <p>
   (I) From the “osTicket-Installation-Files” folder, install <b>VC_redist.x86.exe.
@@ -364,7 +348,7 @@ Click Next
 
 ![image](https://github.com/user-attachments/assets/8e6b7775-ef04-4536-b7e6-f17bb64236d7)
 
-<p>Once Set up is successful, you may move on to section 3: <b>"Installing 'MySQL' and Register PHP from within IIS"</b></p>
+<p>Once Set up is successful, you may move on to section 3: <b>"Installing 'MySQL' and Registering PHP from within IIS"</b></p>
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -372,5 +356,8 @@ Click Next
 <!----------------------------------------------------------- Install osTicket Files - CLOSED------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<h1>(3) Install MySQL and Register PHP from within IIS</h1>
+
 
 
