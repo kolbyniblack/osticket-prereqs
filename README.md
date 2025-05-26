@@ -27,16 +27,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2> 
 
 <ul>
-<li>1) Install / Enable IIS in Windows WITH CGI </li>
+<li> (1) Install / Enable IIS in Windows WITH CGI </li>
 
-<li> 2) Install osTicket Files </li>
+<li> (2) Install osTicket Files (parts A-E) </li>
 
+<li> (3) Register PHP from within IIS </li>
 
-<li>3) Register PHP from within IIS </li>
+<li> (4) Enable osTicket Extensions</li>
 
-<li>4) Enable osTicket Extensions</li>
-
-<li>5) install HeidiSQL </li>
+<li> (5) install HeidiSQL </li>
 </ul>
 
 <!-- --------------------------------------------------------- LIST-OF-PREREQUISITES-CLOSE ------------------------------------------------------------------------------------------------------------- -->
@@ -50,10 +49,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h1>(1)Install / Enable IIS in Windows WITH CGI</h1>
 
 
- In the Windows desktop search bar, look up <b>"Control Panel"</b> - The window seen in the image below will open <br /> Next -> <b>Follow the images with their corresponding letter(s) below</b>
+ In the Windows desktop search bar, look up <b>"Control Panel"</b> - The window seen in the image below will open <br /> Next -> <b>Follow the images below step-by-step according to their Roman-Numeral</b>
 
 <p> 
-(A) Once this window appears, make sure you double-click on the icon that reads "PROGRAMS" 
+(I) Once this window appears, make sure you double-click on the icon that reads "PROGRAMS" 
 </p>
 
 ![image](https://github.com/user-attachments/assets/72eff9fb-344b-4449-985f-cc929bcf0a2a)
@@ -61,7 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <hr style="border: none; height: 2px; background-color: black;">
 
 <p> 
-(B) Double-click on "PROGRAMS AND FEATURES" 
+(II) Double-click on "PROGRAMS AND FEATURES" 
 </p>
 
 ![image](https://github.com/user-attachments/assets/8060c297-9239-459a-9e73-8605ed8a382c)
@@ -69,7 +68,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <hr style="border: none; height: 2px; background-color: black;">
 
 <p> 
-(C) On the left side of the window, double-click the Icon that reads "Turn windows Features on or off" 
+(III) On the left side of the window, double-click the Icon that reads "Turn windows Features on or off" 
 </p>
 
 ![image](https://github.com/user-attachments/assets/5abad30c-c72f-418f-83d2-d8db348b7a8a)
@@ -77,7 +76,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <hr style="border: none; height: 2px; background-color: black;">
 
 <p> 
-(D) In the <b>"Windows Features"</b> window, scroll down until you find a folder that reads <b>"Internet Information Services"</b> or IIS (for short) <br /> (expand/+) the Internet Information Services folder by selecting the (+) icon <br /> 
+(IV) In the <b>"Windows Features"</b> window, scroll down until you find a folder that reads <b>"Internet Information Services"</b> or IIS (for short) <br /> (expand/+) the Internet Information Services folder by selecting the (+) icon <br /> 
 (expand/+)World Wide Web Services folder <br /> (expand/+)Common HTTP features-
 </p>
 
@@ -88,7 +87,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/59db12c3-a0df-4c49-b139-39e68afe71e0)
 
 <p>
-  !!For Each listing seen with "[X]" in front of it - make sure to check them off in the <b>"Windows Features"</b> window as seen in the image above!!
+  !!For Each listing seen directly below with an "[X]" in front of it - make sure to locate them in the window titled <b>"Windows Features"</b> and check-mark each box as seen in the image above!!
   <ul>
   <li>[X]Default document </li>
   <li>[X]Directory Browsing </li>
@@ -115,10 +114,13 @@ Then, click "okay"
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-<h1>2) Install <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD> "osTicket files" </a></h1>
+
+<!--this is the beginning of (2-A; 1-4) -->
+
+<h1>(2-A) Install <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD> "osTicket files" </a></h1>
 
 <p>
-(A) download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD> "osTicket files" </a> 
+Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD> "osTicket files" </a> 
 
 <ul> 
     <li>Unzip and drag the “osTicket-Installation-Files” folder onto your desktop</li>
@@ -126,48 +128,187 @@ Then, click "okay"
   </ul>
   
 </p>
+<!--ROMAN NUMERAL 1 OPEN -->
 
-![image](https://github.com/user-attachments/assets/62022457-211e-4baf-aed3-b05c03248c3e)
+<p>I.</p>
+
+![image](https://github.com/user-attachments/assets/d5b96631-519f-4bf5-bb10-2cb1e48bfadd)
 
 <hr style="border: none; height: 2px; background-color: black;">
 
   <p>
-(B) - From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
   </p>
+<!--ROMAN NUMERAL 1 CLOSED --> 
 
-![02-PHP-manager](https://github.com/user-attachments/assets/3d935c5a-f723-417a-bba6-2ba074e2dc35)
+<!--ROMAN NUMERAL 2 OPEN -->
+<p>II.</p>
+
+![image](https://github.com/user-attachments/assets/bd67267c-b2c0-4974-acf9-2c0c8b361fd3)
+
 
 <h3>When the <b>IIS Manager Set up Window appears</b> </h3>
-<ul>
-  <li>Click Next</li>
-  <li>Agree to the Licensing agreement</li>
-</ul>
-</p>
+
+Click Next
+
+<!--ROMAN NUMERAL 2 CLOSED --> 
+
+<!--ROMAN NUMERAL 3 OPEN --> 
+
+<p>III.</p>
+
+ ![image](https://github.com/user-attachments/assets/d91e4b04-4d90-4634-a81e-fecfd8dd4d54)
+
+  Agree to the Licensing agreement
+
+<!--ROMAN NUMERAL 3 CLOSED --> 
+
+<!--ROMAN NUMERAL 4 OPEN -->
+
+<p>IV.</p>
+
+![image](https://github.com/user-attachments/assets/e4d2adc7-54f3-4fda-9013-85b1e78f88fb)
+
+<!--ROMAN NUMERAL 4 CLOSED -->
+
 <br />
 
 <hr style="border: none; height: 2px; background-color: black;">
 <hr style="border: none; height: 2px; background-color: black;">
 <hr style="border: none; height: 2px; background-color: black;">
-(PLACE IMAGE HERE)
+
+<!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) -->
+<!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) -->
+<!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) --><!--this is the beginning of (2-B) -->
+
+<h1>(2-B) install the Rewrite Module (rewrite_amd64_en-US)</h1>
+
+<p>(I) click on the file that reads (rewrite_amd64_en-US) </p>
+
+![image](https://github.com/user-attachments/assets/4f2690c2-f6e6-4327-8921-7be2e695f732)
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(II) Once the <b>"set-up"</b> window opens, click the <b>"Install"</b> button</p>
+
+![image](https://github.com/user-attachments/assets/5a16f15f-81e9-46ce-a1f2-53d3e22caa13)
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(III) Once installed, click the "Finish" button, and then continue on to section (2-C)</p>
+
+![image](https://github.com/user-attachments/assets/adfefeba-fdfd-4e0c-bf1f-a668cd5c6c05)
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) -->
+<!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) -->
+<!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) -->
+<!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) -->
+<!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) --><!--this is the closing of (2-B) -->
+
+
+<!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) -->
+<!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) -->
+<!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) --><!--this is the beginning of (2-C) -->
+
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<h1>(2-C) Create the directory "C:\PHP"</h1>  
+<h4> ( This is a "new folder" that you will create in the C:drive - name the folder <b>"PHP"</b> )</h4>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(I) On the left side of Windows' "File Explorer" locate the highlighted icon named "This PC", and click the "expansion" button</p>
+
+![image](https://github.com/user-attachments/assets/9c3ed1a2-c369-44c4-916e-858f860b4b86)
+
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+<p>(II) Once expanded, locate the C:drive. It will show as "Windows(C:)"</p>
+
+![image](https://github.com/user-attachments/assets/92e59021-31d1-4678-b635-af247bd5fb1f)
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+<p>(III) Right-click anywhere (in the imaginary red-box shown in the image) . When the pop-up window appears, <br /> hover your mouse over "New", then click "Folder" from the pop-up window </p>
+
+![image](https://github.com/user-attachments/assets/dd1a8cdc-8236-4f07-81f0-acf302b1228b)
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+<p>(IV) Once the folder is created, the name of the folder will be ready to be edited, from here just type the letters "PHP" <br /> Then, continue on to section (2-D) </p>
+
+![image](https://github.com/user-attachments/assets/c010a6ce-9d50-4d51-996b-41d2155f3f95)
+
+![image](https://github.com/user-attachments/assets/1842797e-f8d3-4b78-94cf-7af22a48b06c)
+
+<h6>!!When changing the names of files and folders, it is extremely important to name them exactly as directed. Case sensitivity, spaces, etc. are all extremely important to adhere to - Please be very careful!! </h6>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
+<!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
+<!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
+ <p>
+(2-D) From the “osTicket-Installation-Files” folder, unzip [PHP 7.3.8] (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder ( ie: The new folder that was just created )
+ </p>
 
 
 
+<!--This is at the bottom of section 2-D with instruction to continue on to the next section-->
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p> 
+ <br /> Then, continue on to section (2-E) 
 </p>
 
-<br />
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 
-<p>
-  
-(PLACE IMAGE HERE)
-  
-</p>
-<p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
+ <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
+ <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
+<p>
+ (2-E) From the “osTicket-Installation-Files” folder, install <b>VC_redist.x86.exe.</b>
 </p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
 <br />
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
