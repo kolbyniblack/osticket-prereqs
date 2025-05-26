@@ -279,9 +279,11 @@ Click Next
 <!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
 <!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
 <!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) --><!--this is the beginning of (2-D) -->
- <p>
-(2-D) Unzip [PHP 7.3.8] into the “C:\PHP” folder ( ie: The new folder that was just created )
- </p>
+ 
+<h1>(2-D) Unzip [PHP 7.3.8] into the “C:\PHP” folder ( ie: The new folder that was just created )</h1>
+<p>
+ 
+</p>
 
 <p>
  (I)From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
@@ -293,44 +295,48 @@ Click Next
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 
-<p>(II)</p>
+<p>(II) Right-click on file, and click "Extract All"</p>
+
+![image](https://github.com/user-attachments/assets/089f9ca3-504d-4d28-8a3e-e1fae152cced)
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
  
-<p>(III)</p>
+<p>(III) In the next window that appears, click on "Browse"</p>
+
+![image](https://github.com/user-attachments/assets/9c097746-2830-49e8-9191-e093e344581f)
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
   
-<p>(IV)</p>
+<p>(IV) Find and select the folder newly named "PHP", once selected, click the button named "Select Folder"</p>
+
+![image](https://github.com/user-attachments/assets/d2bc4df0-7256-4e1f-9591-d87ca93e9ffa)
+
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
    
-<p>(V)</p>
+<p>(V) Once the folder is selected, click on the button named "Extract"</p>
+
+![image](https://github.com/user-attachments/assets/b88a4c14-aa9c-47c0-9d98-1647e24b066e)
+
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
     
-<p>(VI)</p>
+<p>(VI) Once 100% completed, you may now pat yourself on the back, and move on to section 2-E: "installing <b>VC_redist.x86.exe." </p>
+
+![image](https://github.com/user-attachments/assets/4a10c724-1c19-4a95-8814-19b801329a34)
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
      
-<p>(VII)</p>
-
-
-<!--This is at the bottom of section 2-D with instruction to continue on to the next section-->
-
-<p> 
- <br /> Then, continue on to section (2-E) 
-</p>
 
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
@@ -341,16 +347,59 @@ Click Next
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
  <!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) --><!--this is the beginning of (2-E) -->
+
+<h1>(2-E) Install <b>VC_redist.x86.exe.</h1>
 <p>
- (2-E) From the “osTicket-Installation-Files” folder, install <b>VC_redist.x86.exe.</b>
+  (I) From the “osTicket-Installation-Files” folder, install <b>VC_redist.x86.exe. 
 </p>
 
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
-<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+<p>(II)</p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 
 
-<br />
+<p>(III)</p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(IV)</p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(V)</p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(VI)</p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+<p>(VII)</p>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->  
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
