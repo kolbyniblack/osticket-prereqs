@@ -35,9 +35,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <li> (4) Register PHP from within IIS </li>
 
-<li> (4) Enable osTicket Extensions</li>
+<li> (5) Enable osTicket Extensions</li>
 
-<li> (5) install HeidiSQL </li>
+<li> (6) install HeidiSQL </li>
 </ul>
 
 <!-- --------------------------------------------------------- LIST-OF-PREREQUISITES-CLOSE ------------------------------------------------------------------------------------------------------------- -->
