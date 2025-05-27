@@ -31,7 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <li> (2) Install osTicket Files (parts A-E) </li>
 
-<li> (3) Install MySQL and Register PHP from within IIS </li>
+<li> (3) Install MySQL </li>
+
+<li> (4) Register PHP from within IIS </li>
 
 <li> (4) Enable osTicket Extensions</li>
 
@@ -316,7 +318,7 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 <hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 <!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
     
-<p>(VI) Once extraction is 100% completed, you may now move on to section 2-E: "installing <b>VC_redist.x86.exe." </p>
+<p>(VI) Once extraction is 100% completed, you may now move on to section 2-E: "installing <b>Microsoft Visual C++</b> </p>
 
 ![image](https://github.com/user-attachments/assets/4a10c724-1c19-4a95-8814-19b801329a34)
 
@@ -359,5 +361,22 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 
 <h1>(3) Install MySQL and Register PHP from within IIS</h1>
 
+<p>(I) From the “osTicket-Installation-Files” folder, install <b>MySQL 5.5.62</b></p>
 
+![image](https://github.com/user-attachments/assets/a3705f5a-97fd-44d7-a632-14605be9a949)
+
+<p>(II) In the "MySQL" set up window you will follow the list below</p>
+
+<p>
+   <ul>
+    <li>a. click next</li>
+    <li>b. accept terms and conditions</li>
+    <li>c. select "typical"</li>
+    <li>d. select "install"</li>
+    <li>e. select "finish"</li>
+   </ul>
+</p>
+
+
+![07-MYSQL-06-sequence-00](https://github.com/user-attachments/assets/d02afbf7-08cc-4a59-85f3-aea32710a4cb)
 
