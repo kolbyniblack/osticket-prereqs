@@ -430,5 +430,29 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 <p> <h1>(4) Register PHP from within IIS </h1> </p>
 
 <p>
-    
-</p>
+  From the Desktop Search Window, type "IIS Manager" once the name appears, right click, and choose "Run as Administrator" <br /> IIS manager will open 
+ </p>
+
+![09-RGSTRPHP-IIS-01-02-mx](https://github.com/user-attachments/assets/82902377-bc81-47fc-bb2a-d3129467155a)
+
+
+ 
+ <br /> *Next : Follow each item listed below. There will be picuters to reference*  
+
+ <p>
+  <ul>
+   <li> a.Open "PHP Manager"</li>
+   <li>b. Select "Register new PHP version"</li>
+   <li>c. Select the Ke-bab menu (box with 3 dots ) </li>
+   <li>d. Open the "PHP" folder </li>
+   <li>e. Open the file "php-cgi"</li>
+   <li>f. Select "OK" </li>
+   <li>g. Once back in IIS Manager Window, go the "Osticket-lab Home" screen ( it is located on the left side of the window) </li>
+   <li>h. Select the "stop" action ( wait at least 30 seconds )</li>
+   <li>i. Select the "start" action </li>
+     </ul>
+ </p>
+
+ <p>
+  
+ </p>
