@@ -427,7 +427,7 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 <!---------------------------------------------------- (4) REGISTER PHP FROM WIHTIN IIS - OPEN  -------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-<p> <h1>(4) Register PHP from within IIS </h1> </p>
+<p> <h1>(4-A) Register PHP from within IIS </h1> </p>
 
 <p>
   From the Desktop Search Window, type "IIS Manager" once the name appears, right click, and choose "Run as Administrator" <br /> IIS manager will open 
@@ -435,24 +435,54 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 
 ![09-RGSTRPHP-IIS-01-02-mx](https://github.com/user-attachments/assets/82902377-bc81-47fc-bb2a-d3129467155a)
 
-
- 
- <br /> *Next : Follow each item listed below. There will be picuters to reference*  
-
- <p>
-  <ul>
-   <li> a.Open "PHP Manager"</li>
-   <li>b. Select "Register new PHP version"</li>
-   <li>c. Select the Ke-bab menu (box with 3 dots ) </li>
-   <li>d. Open the "PHP" folder </li>
-   <li>e. Open the file "php-cgi"</li>
-   <li>f. Select "OK" </li>
-   <li>g. Once back in IIS Manager Window, go the "Osticket-lab Home" screen ( it is located on the left side of the window) </li>
-   <li>h. Select the "stop" action ( wait at least 30 seconds )</li>
-   <li>i. Select the "start" action </li>
-     </ul>
- </p>
-
  <p>
   
  </p>
+
+ I. Open "PHP Manager"<br />
+ ![09-RGSTRPHP-IIS-02](https://github.com/user-attachments/assets/d4a238bd-d427-49ed-9fed-4c96593807ac)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ II. Select "Register new PHP version"<br /> 
+ ![09-RGSTRPHP-IIS-03](https://github.com/user-attachments/assets/8ef88c75-b968-4fa8-a7a1-c0497d608d6c)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ III. Select the Ke-bab menu (box with 3 dots ) <br />  
+ ![09-RGSTRPHP-IIS-04](https://github.com/user-attachments/assets/f6499f47-35f3-45ce-b0a3-8d0acf05001a)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ IV. Open the "PHP" folder; Located in the Windows(C:) drive" <br /> 
+ ![09-RGSTRPHP-IIS-05](https://github.com/user-attachments/assets/3b7acf99-de2c-4d93-991b-2d8c9050e02c)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ V. Open the file "php-cgi" <br />  
+ ![09-RGSTRPHP-IIS-06](https://github.com/user-attachments/assets/994d7e78-2e34-4731-87fe-07c0b60385c7)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ VI. Select "OK" <br /> 
+ ![09-RGSTRPHP-IIS-07](https://github.com/user-attachments/assets/0e0ed9e3-dad2-49d2-8d43-9601ab98725d)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ VII. Once back in IIS Manager Window, go the "Osticket-lab Home" screen ( it is located on the left side of the window)<br />  
+ ![09-RGSTRPHP-IIS-08](https://github.com/user-attachments/assets/7b09ae9d-e188-40c0-8351-f17517d1e4ba)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ VIII. Select the "stop" action ( wait at least 30 seconds ) <br /> 
+ ![09-RGSTRPHP-IIS-09](https://github.com/user-attachments/assets/457fcf37-9740-4cf5-8c2a-b7f146049ae6)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+ VIV. Select the "start" action <br /> 
+ ![09-RGSTRPHP-IIS-10](https://github.com/user-attachments/assets/9a2c2d99-fa0f-4f72-a784-53a8094e27a4)
+
+
+![09-RGSTRPHP-IIS-02](https://github.com/user-attachments/assets/785db94f-646b-4157-a876-1eef8959f963)
+
+ 
