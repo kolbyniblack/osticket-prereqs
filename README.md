@@ -371,6 +371,11 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 
 ![image](https://github.com/user-attachments/assets/a3705f5a-97fd-44d7-a632-14605be9a949)
 
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+
 <p>(II) In the "MySQL" set up window you will follow the list below</p>
 
 <p>
@@ -420,6 +425,16 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 <!----------------------------------------------------------- (3) INSTALL MYSQL - CLOSED---------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
 
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -481,8 +496,102 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 
  VIV. Select the "start" action <br /> 
  ![09-RGSTRPHP-IIS-10](https://github.com/user-attachments/assets/9a2c2d99-fa0f-4f72-a784-53a8094e27a4)
-
-
-![09-RGSTRPHP-IIS-02](https://github.com/user-attachments/assets/785db94f-646b-4157-a876-1eef8959f963)
-
  
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<hr style="border: none; height: 2px; background-color: black;"><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+<!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line--><!--This is a separation line-->
+
+<h1>4-B</h1>
+
+<p>
+ <ul>
+  <li>(I) Install osTicket v1.15.8</li>
+  <li>(II) Enable osTicket Extensions</li>
+  <li>(III) Rename: ost-config.php</li>
+  <li>(IV) Assign Permissions: ost-config.php</li>
+ </ul>
+</p>
+
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!--<h2>(I) Install osTicket v1.15.8 (a-f)</h2>-->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+![10-instll-OSTkt-V1158-00](https://github.com/user-attachments/assets/6ff3102a-1713-4fff-a4e6-604d08edc191)
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+
+<p>(a) From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip”</p>
+
+![10-instll-OSTkt-V1158-01](https://github.com/user-attachments/assets/ebc1b4bd-6149-4d88-8da1-c14b33b7d6dd)
+
+(b) Copy the "upload" folder, then open "Windows(C:) drive"<br />
+![10-instll-OSTkt-V1158-04](https://github.com/user-attachments/assets/7c70e306-7f48-4ce4-8dfc-18e67819125c)
+
+(c) In Windows(C:) open the "inetpub" folder<br />
+![10-instll-OSTkt-V1158-03](https://github.com/user-attachments/assets/533ecdce-9cfe-486e-bfa7-ca0b11e88954)
+
+(d) Open the wwwroot folder <br />
+![10-instll-OSTkt-V1158-05](https://github.com/user-attachments/assets/3b93ba73-1fb8-499e-a823-162fef22ec28)
+
+(e) right click and select "paste" <br />
+![10-instll-OSTkt-V1158-06](https://github.com/user-attachments/assets/e13b1734-1ef6-4c4d-9e3d-9c55ce61bd3a)
+
+(f) once upload is complete, rename "upload" folder <br />
+![10-instll-OSTkt-V1158-07](https://github.com/user-attachments/assets/7dea4442-b6f7-4047-b5ac-91d959097680)
+
+(g) Rename the "upload" folder to "osTicket" <br />
+![10-instll-OSTkt-V1158-08](https://github.com/user-attachments/assets/7b9b85d3-fa8e-4e53-b472-3b1d9c3a02b0)
+![10-instll-OSTkt-V1158-09](https://github.com/user-attachments/assets/32571fe1-24f0-46c1-92b7-136dfbdd23c8)
+
+(h) Open IIS Manager - stop then start the server <br />
+![10-instll-OSTkt-V1158-10](https://github.com/user-attachments/assets/1632b603-9f69-42fa-a88e-76fe710116b7)
+![10-instll-OSTkt-V1158-11](https://github.com/user-attachments/assets/53823587-2a3c-4a63-aef1-ff7be4d93c8b)
+
+(i) Go to "Sites" -> then "Default Web Site" -> then "osTicket"  <br />
+![10-instll-OSTkt-V1158-12](https://github.com/user-attachments/assets/680098bc-b898-415b-a079-c070dd7f5ef7)
+![10-instll-OSTkt-V1158-13](https://github.com/user-attachments/assets/3aba9665-b3eb-477d-a5fc-b70cf0974f04)
+![10-instll-OSTkt-V1158-14](https://github.com/user-attachments/assets/a3a01a03-8019-45bc-8ee8-079858279edd)
+
+
+(j) To the right, click “Browse *:80” <br />
+![10-instll-OSTkt-V1158-15](https://github.com/user-attachments/assets/543289da-d86a-43a5-b769-6777ebbfd0a3)
+
+You should see the "osTicket Installer" appear (Enabling the Extensions is up next) <br />
+![10-instll-OSTkt-V1158-16](https://github.com/user-attachments/assets/36f014a3-fb0c-41a3-b523-c984b5f6e8fe)
+
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!--ENABLE-OSTICKET-EXTENSIONS------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+![11-enbl-osTkt-extnsn-00](https://github.com/user-attachments/assets/cd13f069-12fe-4cdc-bed8-d5dddcc930bb)
+
+(a) In IIS Manager, select "osTicket-lab" Home page, and select PHP manager <br />
+![image](https://github.com/user-attachments/assets/cd63c114-e551-4aca-98f5-160163445b97)
+![image](https://github.com/user-attachments/assets/eec840f9-64c2-4f85-83b9-c93653ca51c2)
+
+
+(b) Select "Enable or disable an extension <br />
+![image](https://github.com/user-attachments/assets/a5a4a0c8-af4a-4878-9135-596e50417f52)
+
+(c) In the pop-up window, locate and nable each item listed below
+<p>
+ <ul>
+  <li> php_imap.dll</li>
+  <li> php_intl.dll</li>
+  <li> php_opcache.dll</li>
+ </ul>
+</p>
+
+![image](https://github.com/user-attachments/assets/ab387407-0c22-4d9e-a738-ec4784a6169b)
+
+In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5" on your keyboard and observe the changes <br />
+![11-enbl-osTkt-extnsn-05](https://github.com/user-attachments/assets/7f567170-c2cf-4dc3-b682-d69c322e7324)
+![11-enbl-osTkt-extnsn-06](https://github.com/user-attachments/assets/41d21ef1-aa30-4e74-820c-32b63f903777)
