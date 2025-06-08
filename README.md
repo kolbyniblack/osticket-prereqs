@@ -33,11 +33,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <li> (3) Install MySQL </li>
 
-<li> (4) Register PHP from within IIS </li>
+<li> (4) Register PHP from within IIS (A-B) </li>
 
-<li> (5) Enable osTicket Extensions</li>
-
-<li> (6) install HeidiSQL </li>
+<li> (5) install HeidiSQL </li>
 </ul>
 
 <!-- --------------------------------------------------------- LIST-OF-PREREQUISITES-CLOSE ------------------------------------------------------------------------------------------------------------- -->
@@ -595,3 +593,84 @@ You should see the "osTicket Installer" appear (Enabling the Extensions is up ne
 In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5" on your keyboard and observe the changes <br />
 ![11-enbl-osTkt-extnsn-05](https://github.com/user-attachments/assets/7f567170-c2cf-4dc3-b682-d69c322e7324)
 ![11-enbl-osTkt-extnsn-06](https://github.com/user-attachments/assets/41d21ef1-aa30-4e74-820c-32b63f903777)
+
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!--(III) Rename: ost-config.php----------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+
+![12-Rename-ost-config-php-00](https://github.com/user-attachments/assets/b5222035-b466-4191-a201-c53ff95bf77a)
+
+<p>(a) In the "wwwroot" folder, open "osTicket" - then open "include" and locate the file "ost-sampleconfig.php"</p> <br />
+
+![12-Rename-ost-config-php-01](https://github.com/user-attachments/assets/f7b2b6f8-c9b4-4949-b799-a74ddc322be7)
+![12-Rename-ost-config-php-02](https://github.com/user-attachments/assets/26021d52-268a-4411-ab37-9079c93fdf80)
+
+(b) Rename "ost-sampleconfig.php" to ""ost-config.php" <br />
+![12-Rename-ost-config-php-03](https://github.com/user-attachments/assets/1c24c329-1537-43ff-a5f6-ae6445ecc992)
+![12-Rename-ost-config-php-04](https://github.com/user-attachments/assets/a5b68fc6-94b8-4fa9-a9fd-55ed42ee1799)
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<hr style="border: none; height: 2px; background-color: black;">
+
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!---Assign Permissions: ost-config.php---------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+
+![13-Assign Permissions- ost-config-php-00](https://github.com/user-attachments/assets/10ab5899-42f0-46e7-a6d9-b4b0f45bd800)
+
+(a) Right click "ost-config.php" and select "Properties" - then "Advanced" - then "Disable inheritance" <br />
+![13-Assign Permissions- ost-config-php-01](https://github.com/user-attachments/assets/366bce8f-958e-4ae8-b4bc-702035b02073)
+![13-Assign Permissions- ost-config-php-02](https://github.com/user-attachments/assets/a4da4f9d-cf21-4a72-bba7-a040d3749c28)
+![13-Assign Permissions- ost-config-php-03](https://github.com/user-attachments/assets/98ee759c-814d-4f86-9125-881071d361f7)
+
+<hr style="border: none; height: 2px; background-color: black;">
+
+(b) Select "Remove all inherited permissions from this object" <br />
+![13-Assign Permissions- ost-config-php-04](https://github.com/user-attachments/assets/303ce5e8-b685-4047-bce2-ad7b6cdbfdb8)
+
+(c) In the next window, select the "Add" button <br />
+![13-Assign Permissions- ost-config-php-05](https://github.com/user-attachments/assets/45470af6-95bc-4437-afe7-cd8ff4bab99d)
+
+(d) In the next window, click "Select a principal" and in the text box type "everyone" - next select "OK" <br /> Then check off the Basic permissions as seen in the third slide <br />
+
+![13-Assign Permissions- ost-config-php-06](https://github.com/user-attachments/assets/95c5d6ae-3efe-470f-9a57-c7f362247dc3)
+![13-Assign Permissions- ost-config-php-07](https://github.com/user-attachments/assets/50932664-2fa8-4a1d-b84f-c62dea0cf506)
+![13-Assign Permissions- ost-config-php-08](https://github.com/user-attachments/assets/b6b5f909-f29d-4472-9300-c1c997784b09)
+
+(e) Select "Apply" then continue setting up osTicket in the browser ( click continue ) <br />
+![13-Assign Permissions- ost-config-php-09](https://github.com/user-attachments/assets/266bdeb8-2d88-4cf9-9552-15cb3620d3d3)
+![13-Assign Permissions- ost-config-php-10](https://github.com/user-attachments/assets/d740a782-44a1-4f7a-9f65-b0e217348734)
+
+(f) Creat a "Helpdesk Name" and a "Default Email" (to receive email(s) from customers) <br />
+![13-Assign Permissions- ost-config-php-11](https://github.com/user-attachments/assets/0979ce52-9efc-4b3b-a84a-168e62bfd207)
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<hr style="border: none; height: 2px; background-color: black;">
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!-----------(5)install HeidiSQL----------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+<!----------------------------------------------->
+
+![14-install HeidiSQL-00](https://github.com/user-attachments/assets/b2449076-0252-48bc-84cb-24e64780580b)
+
+
+
+
+
