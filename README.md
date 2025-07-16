@@ -35,7 +35,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <li> (4) Register PHP from within IIS (A-B) </li>
 
-<li> (5) install HeidiSQL </li>
+<li> (5) Install HeidiSQL </li>
+
+<li> (6) Crate osTicket Database in HeidiSQL </li>
 </ul>
 
 <!-- --------------------------------------------------------- LIST-OF-PREREQUISITES-CLOSE ------------------------------------------------------------------------------------------------------------- -->
