@@ -55,7 +55,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 (I) Once this window appears, make sure you double-click on the icon that reads "PROGRAMS" 
 </p>
 
-![image](https://github.com/user-attachments/assets/72eff9fb-344b-4449-985f-cc929bcf0a2a)
+<img width="960" height="446" alt="image" src="https://github.com/user-attachments/assets/06a3ac04-e075-4725-97c8-3dab0ca69b8e" />
 
 <hr style="border: none; height: 2px; background-color: black;">
 
@@ -63,7 +63,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 (II) Double-click on "PROGRAMS AND FEATURES" 
 </p>
 
-![image](https://github.com/user-attachments/assets/8060c297-9239-459a-9e73-8605ed8a382c)
+<img width="948" height="301" alt="image" src="https://github.com/user-attachments/assets/ab8920b7-835f-4e3f-8ee0-483152e74b57" />
+
 
 <hr style="border: none; height: 2px; background-color: black;">
 
@@ -71,7 +72,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 (III) On the left side of the window, double-click the Icon that reads "Turn windows Features on or off" 
 </p>
 
-![image](https://github.com/user-attachments/assets/5abad30c-c72f-418f-83d2-d8db348b7a8a)
+<img width="945" height="309" alt="image" src="https://github.com/user-attachments/assets/a3908c7a-98da-44cd-be44-219c7394d076" />
+
 
 <hr style="border: none; height: 2px; background-color: black;">
 
@@ -80,11 +82,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 (expand/+)World Wide Web Services folder <br /> (expand/+)Common HTTP features-
 </p>
 
-![image](https://github.com/user-attachments/assets/6482a34f-9dc9-489d-a2e0-f116165f1c76)
+<img width="952" height="450" alt="image" src="https://github.com/user-attachments/assets/53da659f-3588-435b-aef4-3cf5ec30a19e" />
+
 
 <p>both images are the same window, the only difference is that the image below has folders that have been expanded</p>
 
-![image](https://github.com/user-attachments/assets/59db12c3-a0df-4c49-b139-39e68afe71e0)
+<img width="663" height="433" alt="image" src="https://github.com/user-attachments/assets/06cbfeba-32c3-428e-a139-ec25e4b6cc64" />
+
 
 <p>
   !!For Each listing seen directly below with an "[X]" in front of it - make sure to locate them in the window titled <b>"Windows Features"</b> and check-mark each box as seen in the image above!!
