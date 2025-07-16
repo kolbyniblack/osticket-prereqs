@@ -674,7 +674,35 @@ In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5"
 
 ![14-install HeidiSQL-00](https://github.com/user-attachments/assets/b2449076-0252-48bc-84cb-24e64780580b)
 
+(I) In the OsTicket Installation folder, open "HeidiSQL_12.3.0.6589_Setup", then copy the following images exactly as seen <br />
+<img width="360" height="361" alt="image" src="https://github.com/user-attachments/assets/63e00440-d8ea-40c9-897c-b527e7420528" />
 
 
 
+(II) <br />
+<img width="360" height="361" alt="image" src="https://github.com/user-attachments/assets/987f6578-305f-48a3-8f20-6881297f00e3" />
+
+
+(III) <br />
+<img width="360" height="361" alt="image" src="https://github.com/user-attachments/assets/0b18597d-c597-4b04-a854-f1ca9ee22bbf" />
+
+
+(IV) <br />
+<img width="360" height="361" alt="image" src="https://github.com/user-attachments/assets/87a48f94-2b08-4472-b2ce-d03f667ff7bf" />
+
+
+(V) <br />
+<img width="360" height="361" alt="image" src="https://github.com/user-attachments/assets/ca974699-59c5-4c49-848c-37e6050050ae" />
+
+
+(VI) <br />
+<img width="360" height="361" alt="image" src="https://github.com/user-attachments/assets/c0649602-a141-4538-b209-108b10929a67" />
+
+
+(VII) <br />
+<img width="353" height="276" alt="image" src="https://github.com/user-attachments/assets/e1c05480-84e0-4cf2-be38-20978addf28c" />
+
+
+(VIII) <br />
+<img width="353" height="276" alt="image" src="https://github.com/user-attachments/assets/89d7e59e-261f-4968-99fb-4dfeec9d07a6" />
 
