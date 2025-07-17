@@ -715,3 +715,36 @@ In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5"
 <!-------------------------------------------------------------------->
 <!-------------------------------------------------------------------->
 <!-------------------------------------------------------------------->
+
+
+
+(I) Open "HEIDISQL" Icon on your Desktop <br />
+<img width="633" height="241" alt="image" src="https://github.com/user-attachments/assets/e0d369f7-32a1-470b-a44f-aace172314de" />
+
+
+
+(II) You may skip the donation part ( Users Choice )<br />
+<img width="535" height="434" alt="image" src="https://github.com/user-attachments/assets/1208b9ea-f912-4a7d-b1ba-37277fc23aa4" />
+
+
+
+(III) In the "Session Manager" window, click "NEW" <br />
+<img width="658" height="485" alt="image" src="https://github.com/user-attachments/assets/dc555ea1-826f-48ba-affb-6a0722c0ca3b" />
+
+
+
+(IV) Enter the Password that was set earlier <br />
+<img width="658" height="485" alt="image" src="https://github.com/user-attachments/assets/7e4449c0-6f27-4684-8f33-55e30e30e741" />
+
+
+
+(V) Right click in the Client Area, hover over "create new" and click on "Database" from the dropdown menu<br />
+<img width="1001" height="582" alt="image" src="https://github.com/user-attachments/assets/8ab3c2e4-b5e0-4713-9661-124bed8b7eaa" />
+
+
+
+(VI) In the "create database" window, name the database "osTicket" and then click "Okay"<br />
+<img width="1001" height="582" alt="image" src="https://github.com/user-attachments/assets/68098a12-06fe-4127-8620-baa04dcd6154" />
+
+
+<h1>You may now continue on to setting up the Rest of osTicket</h1>
