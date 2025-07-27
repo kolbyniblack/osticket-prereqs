@@ -48,6 +48,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<img width="1920" height="360" alt="image" src="https://github.com/user-attachments/assets/c7013f67-979c-445e-a8cc-46b619bf30dc" /> <br />
+
 <h1>(1)Install / Enable IIS in Windows WITH CGI</h1>
 
 
@@ -122,6 +125,9 @@ Then, click "okay"
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <!--this is the beginning of (2-A; 1-4) -->
+
+<img width="1920" height="360" alt="image" src="https://github.com/user-attachments/assets/9ed236a4-7f9b-4ca7-9f0d-94bd6bffc87a" /> <br />
+
 
 <h1>(2-A) Install <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD> "osTicket files" </a></h1>
 
@@ -369,7 +375,10 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-<h1>(3-A) Install MySQL and Register PHP from within IIS</h1>
+
+<img width="1920" height="360" alt="image" src="https://github.com/user-attachments/assets/d4328e44-7bad-4afe-91cf-48e24c483305" /> <br />
+
+<h1>(3-A) Install MySQL</h1>
 
 <p>(I) From the “osTicket-Installation-Files” folder, install <b>MySQL 5.5.62</b></p>
 
@@ -446,6 +455,10 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
 <!---------------------------------------------------- (4) REGISTER PHP FROM WIHTIN IIS - OPEN  -------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<img width="1920" height="360" alt="image" src="https://github.com/user-attachments/assets/156c7f0c-69e8-4a9a-b826-2d2e608e2257" /> <br />
+
+
 <p> <h1>(4-A) Register PHP from within IIS </h1> </p>
 
 <p>
@@ -516,19 +529,9 @@ Download the <a href=https://drive.google.com/uc?export=download&id=1b3RBkXTLNGX
  </ul>
 </p>
 
-<!----------------------------------------------->
-<!----------------------------------------------->
-<!----------------------------------------------->
-<!--<h2>(I) Install osTicket v1.15.8 (a-f)</h2>-->
-<!----------------------------------------------->
-<!----------------------------------------------->
-<!----------------------------------------------->
-![10-instll-OSTkt-V1158-00](https://github.com/user-attachments/assets/6ff3102a-1713-4fff-a4e6-604d08edc191)
-<!----------------------------------------------->
-<!----------------------------------------------->
-<!----------------------------------------------->
-<!----------------------------------------------->
 
+<p><h1>(I) Install osTicket v1.15.8</h1></p>
+ 
 <p>(a) From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip”</p>
 
 ![10-instll-OSTkt-V1158-01](https://github.com/user-attachments/assets/ebc1b4bd-6149-4d88-8da1-c14b33b7d6dd)
@@ -575,7 +578,7 @@ You should see the "osTicket Installer" appear (Enabling the Extensions is up ne
 <!----------------------------------------------->
 <!----------------------------------------------->
 <!----------------------------------------------->
-![11-enbl-osTkt-extnsn-00](https://github.com/user-attachments/assets/cd13f069-12fe-4cdc-bed8-d5dddcc930bb)
+<p><h1>(II) Enable osTicket Extensions</h1></p>
 
 (a) In IIS Manager, select "osTicket-lab" Home page, and select PHP manager <br />
 ![image](https://github.com/user-attachments/assets/cd63c114-e551-4aca-98f5-160163445b97)
@@ -608,7 +611,8 @@ In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5"
 <!----------------------------------------------->
 <!----------------------------------------------->
 
-![12-Rename-ost-config-php-00](https://github.com/user-attachments/assets/b5222035-b466-4191-a201-c53ff95bf77a)
+<p><h1>(III) Rename: ost-config.php</h1></p>
+
 
 <p>(a) In the "wwwroot" folder, open "osTicket" - then open "include" and locate the file "ost-sampleconfig.php"</p> <br />
 
@@ -632,7 +636,7 @@ In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5"
 <!----------------------------------------------->
 <!----------------------------------------------->
 
-![13-Assign Permissions- ost-config-php-00](https://github.com/user-attachments/assets/10ab5899-42f0-46e7-a6d9-b4b0f45bd800)
+<p><h1>(IV) Assign Permissions: ost-config.php</h1></p>
 
 (a) Right click "ost-config.php" and select "Properties" - then "Advanced" - then "Disable inheritance" <br />
 ![13-Assign Permissions- ost-config-php-01](https://github.com/user-attachments/assets/366bce8f-958e-4ae8-b4bc-702035b02073)
@@ -716,6 +720,7 @@ In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5"
 <!-------------------------------------------------------------------->
 <!-------------------------------------------------------------------->
 
+<img width="1920" height="360" alt="image" src="https://github.com/user-attachments/assets/1df15b28-e2a9-4497-af0e-7011500bb672" /> <br />
 
 
 (I) Open "HEIDISQL" Icon on your Desktop <br />
@@ -748,3 +753,7 @@ In osTicket Installer, Refresh the page by clicking the "refresh" button or "f5"
 
 
 <h1>You may now continue on to setting up the Rest of osTicket</h1>
+
+<img width="777" height="858" alt="image" src="https://github.com/user-attachments/assets/d4bd579c-e0a5-43da-ae4f-ed1d3306ef4d" />
+
+
